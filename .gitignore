@@ -1,0 +1,26 @@
+# Thư mục build và biên dịch
+/build/
+/dist/
+/out/
+/target/
+
+# Files tạo ra khi chạy
+*.log
+*.tmp
+
+# Thư mục dependencies
+/node_modules/
+/vendor/
+
+# Files môi trường
+.env
+.env.local
+
+# Files cấu hình IDE
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Files hệ thống
+.DS_Store
+Thumbs.db

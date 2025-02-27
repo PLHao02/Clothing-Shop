@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<link rel="stylesheet" type="text/css" href="~/Content/assets/styles/contact_styles.css">
+<link rel="stylesheet" type="text/css" href="~/Content/assets/styles/contact_responsive.css">
+<div class="container contact_container">
+    <div class="row">
+        <div class="col">
+            <div class="breadcrumbs d-flex flex-row align-items-center">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li class="active"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h3>Thông tin liên hệ</h3>
+            <p>Tên: Hào</p>
+            <p>SDT: 0986.993.748</p>
+            <p>Email: plhao1711@gmail.com</p>
+        </div>
+        <div class="col">
+            <div id="google_map">
+                <div class="map_container">
+                    <div id="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7839.187692631395!2d106.64227237821565!3d10.76575226200548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752e944587cf9b%3A0xab926e7b74a35938!2zQsOsbmggVGjhu5tpLCBRdeG6rW4gMTEsIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2sus!4v1740596823852!5m2!1svi!2sus" width="550" height="520" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+
+    </div>
+</div>
+@section scripts{
+    <script src="~/Content/assets/js/contact_custom.js"></script>
+}
