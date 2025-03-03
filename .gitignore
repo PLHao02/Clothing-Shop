@@ -1,26 +1,59 @@
-# Thư mục build và biên dịch
-/build/
-/dist/
-/out/
-/target/
+# 🔹 Thư mục build và output
+bin/
+obj/
+out/
 
-# Files tạo ra khi chạy
+# 🔹 File log, cache, và debug
 *.log
-*.tmp
+*.tlog
+*.cache
+*.pdb
+*.sdf
+*.ilk
 
-# Thư mục dependencies
-/node_modules/
-/vendor/
+# 🔹 File cá nhân của Visual Studio
+*.suo
+*.user
+*.ncb
+*.aps
+*.scc
+*.vspscc
+*.vsp
 
-# Files môi trường
-.env
-.env.local
-
-# Files cấu hình IDE
-.idea/
+# 🔹 Cấu hình của Visual Studio và VS Code
+.vs/
 .vscode/
-*.sublime-workspace
 
-# Files hệ thống
-.DS_Store
+# 🔹 Rider (JetBrains) IDE
+.idea/
+*.iml
+
+# 🔹 Thư viện NuGet và các file liên quan
+packages/
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+# 🔹 Cấu hình môi trường (bảo mật)
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+*.env
+
+# 🔹 File DLL, EXE và output build
+*.dll
+*.exe
+
+# 🔹 File của Resharper và các công cụ phân tích mã nguồn
+_ReSharper*/
+resharper.xml
+*.DotSettings
+
+# 🔹 File publish (có thể giữ lại nếu cần deploy)
+publish/
+wwwroot/
+
+# 🔹 Một số file hệ thống của Windows/macOS
 Thumbs.db
+.DS_Store
